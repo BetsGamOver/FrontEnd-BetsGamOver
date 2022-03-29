@@ -1,6 +1,6 @@
-import perfil from './img/perfil.png';
-import candado from './img/icono-candado.png';
 import './App.css';
+import perfil from  "./img/perfil.png"
+import registrate from "./registrate.js"
 
 function App() {
   return (
@@ -17,10 +17,18 @@ function App() {
             <div>
               <input type="text" placeholder='usuario' className='usuario' />
             </div>
-            <div>
+            <div className='second-input'>
               <input type="text" placeholder='contraseña' className='contraseña' />
             </div>
-            <button>Login</button>
+            <div className='login-button'>
+              <button>Login</button>
+            </div>
+            <div className='link'>
+              <p>
+                <a href="#">Forgot password ?</a> Or <a href="/signUp"> Sign Up</a>
+              </p>
+            </div>
+            <registrate/>
           </div>
         </div>
       </div>
