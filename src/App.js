@@ -1,6 +1,5 @@
 import './App.css';
 import perfil from  "./img/perfil.png"
-import registrate from "./registrate.js"
 import {link} from 'react-router-dom';
 
 function App() {
@@ -26,7 +25,7 @@ function App() {
             </div>
             <div className='link'>
               <p>
-                <a href="#">Forgot password ?</a> Or <a href={registrate}> Sign Up</a>
+                <a href="#">Forgot password ?</a> Or <a href="/SignUp"> Sign Up</a>
               </p>
             </div>
             <registrate/>
