@@ -41,5 +41,6 @@ class Estadisticas extends React.Component {
     Render(){
         return <></>
     }
+}
 
 export default Estadisticas;
